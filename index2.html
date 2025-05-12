@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduLearn Cursos en Linea</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Encabezado con menú de navegación -->
+  <header class="header">
+    <div class="header__container">
+      <h1 class="logo">EduLearn</h1>
+      <nav class="nav-menu">
+        <ul class="nav-menu__list">
+          <li class="nav-menu__item"><a href="#home" class="nav-menu__link">Inicio</a></li>
+          <li class="nav-menu__item"><a href="#courses" class="nav-menu__link">Cursos</a></li>
+          <li class="nav-menu__item"><a href="#about" class="nav-menu__link">Acerca</a></li>
+          <li class="nav-menu__item"><a href="#contact" class="nav-menu__link">Contacto</a></li>
+        </ul>
+      </nav>
+      <!-- Acciones de usuario: Login / Registro -->
+      <div class="header__actions">
+        <a href="/login" class="btn btn--outline user-action">Iniciar Sesión</a>
+        <a href="/register" class="btn btn--primary user-action">Registrarse</a>
+      </div>
+      <!-- Icono de usuario (opcional JS para estado logueado) -->
+      <!-- <div class="user-icon"><i class="icon-user"></i></div> -->
+    </div>
+  </header>
+
+  <main>
+    <!-- Sección de bienvenida -->
+    <section id="home" class="hero">
+      <div class="hero__content">
+        <h2 class="hero__title">Bienvenido a EduLearn</h2>
+        <p class="hero__subtitle">Tu aventura de aprendizaje comienza aquí.</p>
+        <p class="hero__description">Sumérgete en cursos interactivos creados por expertos, realiza proyectos prácticos y conéctate con una comunidad global de estudiantes y mentores apasionados.</p>
+        <a href="#courses" class="btn btn--secondary hero__cta">Explorar Cursos</a>
+      </div>
+    </section>
+
+    <!-- Sección de cursos con pestañas desplazables -->
+    <section id="courses" class="courses">
+      <h2 class="section-title">Nuestros Cursos</h2>
+      <div class="course-tabs">
+        <div class="course-tabs__container">
+
+          <!-- Tarjeta de curso individual -->
+
+          <article class="course-card">
+            <img src="ruta/imagen-curso1.jpg" alt="Curso 1" class="course-card__image">
+            <div class="course-card__info">
+              <h3 class="course-card__title">Título del Curso 1</h3>
+              <p class="course-card__description">Breve descripción del curso, objetivos y público al que va dirigido.</p>
+            </div>
+          </article>
+
+          <article class="course-card2">
+            <img src="ruta/imagen-curso2.jpg" alt="Curso 2" class="course-card__image2">
+            <div class="course-card__info2">
+              <h3 class="course-card__title2">Título del Curso 2</h3>
+              <p class="course-card__description2">Breve descripción del curso, objetivos y público al que va dirigido.</p>
+            </div>
+          </article>
+
+          <article class="course-card3">
+            <img src="ruta/imagen-curso3.jpg" alt="Curso 3" class="course-card__image3">
+            <div class="course-card__info3">
+              <h3 class="course-card__title3">Título del Curso 3</h3>
+              <p class="course-card__description3">Breve descripción del curso, objetivos y público al que va dirigido.</p>
+            </div>
+          </article>
+
+          <article class="course-card4">
+            <img src="ruta/imagen-curso4.jpg" alt="Curso 4" class="course-card__image4">
+            <div class="course-card__info4">
+              <h3 class="course-card__title4">Título del Curso 4</h3>
+              <p class="course-card__description4">Breve descripción del curso, objetivos y público al que va dirigido.</p>
+            </div>
+          </article>
+
+          <!-- Repetir <article> para agregar más cursos -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de información acerca de la página -->
+    <section id="about" class="info-section">
+      <h2 class="section-title">Acerca de EduLearn</h2>
+      <div class="about-content">
+        <p>En <strong>EduLearn</strong> creemos en el poder transformador de la educación. Nuestra plataforma nace con la misión de ofrecer acceso universal a cursos en línea diseñados para impulsar el crecimiento personal y profesional de cada estudiante, sin importar su ubicación o nivel de experiencia.</p>
+        <p>Buscamos:</p>
+        <ul class="about-list">
+          <li><strong>Conectar</strong> a estudiantes con instructores expertos y comunidades de aprendizaje activas.</li>
+          <li><strong>Empoderar</strong> a los usuarios con herramientas interactivas, proyectos prácticos y evaluaciones constantes.</li>
+          <li><strong>Innovar</strong> en la forma de enseñar, combinando multimedia, foros y tutorías personalizadas.</li>
+        </ul>
+        <p>Ofrecemos:</p>
+        <ol class="about-features">
+          <li>Catálogo de cursos actualizados en áreas como tecnología, diseño, marketing y desarrollo personal.</li>
+          <li>Certificaciones digitales que avalan tu progreso y competencias.</li>
+          <li>Material complementario descargable y acceso de por vida a los contenidos.</li>
+        </ol>
+        <p>En EduLearn, tu aprendizaje es nuestra prioridad. Únete a miles de estudiantes que ya están construyendo su futuro con nosotros.</p>
+      </div>
+    </section>
+
+    <!-- Sección de testimonios -->
+    <section id="testimonials" class="testimonials-section">
+      <h2 class="section-title">Testimonios</h2>
+      <div class="testimonials-container">
+        <article class="testimonial-card">
+          <p class="testimonial-text">“Gracias a EduLearn, pude mejorar mis habilidades en diseño web y conseguir un trabajo como desarrollador front-end.”</p>
+          <h4 class="testimonial-author">— Ana García</h4>
+        </article>
+        <article class="testimonial-card">
+          <p class="testimonial-text">“La flexibilidad y la calidad de los cursos son inigualables. Aprendí a mi propio ritmo y con mentores disponibles siempre.”</p>
+          <h4 class="testimonial-author">— Carlos Pérez</h4>
+        </article>
+      </div>
+    </section>
+
+    <!-- Sección de contacto con formulario -->
+    <section id="contact" class="info-section">
+      <h2 class="section-title">Contacto</h2>
+      <p class="info-section__text">¿Tienes preguntas o deseas más información? Completa el siguiente formulario y nos pondremos en contacto contigo.</p>
+      <form action="/submit-contact" method="POST" class="contact-form">
+        <div class="form-group">
+          <label for="name" class="form-label">Nombre completo</label>
+          <input type="text" id="name" name="name" class="form-input" placeholder="Tu nombre" required>
+        </div>
+        <div class="form-group">
+          <label for="email" class="form-label">Correo electrónico</label>
+          <input type="email" id="email" name="email" class="form-input" placeholder="tu@correo.com" required>
+        </div>
+        <div class="form-group">
+          <label for="subject" class="form-label">Asunto</label>
+          <input type="text" id="subject" name="subject" class="form-input" placeholder="Motivo de tu mensaje" required>
+        </div>
+        <div class="form-group">
+          <label for="message" class="form-label">Mensaje</label>
+          <textarea id="message" name="message" class="form-textarea" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary">Enviar</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="newsletter">
+        <h3 class="newsletter__title">Suscríbete a nuestro boletín</h3>
+        <form action="/subscribe" method="POST" class="newsletter-form">
+          <input type="email" name="newsletter_email" class="newsletter-input" placeholder="Tu correo electrónico" required>
+          <button type="submit" class="btn btn--secondary newsletter-btn">Suscribirse</button>
+        </form>
+      </div>
+      <div class="footer__social">
+        <a href="#" class="social-link">Facebook</a>
+        <a href="#" class="social-link">Twitter</a>
+        <a href="#" class="social-link">LinkedIn</a>
+      </div>
+      <p>&copy; 2025 EduLearn. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Vincula tu archivo JavaScript aquí -->
+  <script src="scripts.js"></script>
+</body>
+</html>
