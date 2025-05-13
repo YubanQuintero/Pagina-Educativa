@@ -1,4 +1,11 @@
+html {
+    scroll-padding-top: 12%; /* Ajusta este valor a la altura de tu header fijo */
+}
 
+body {
+    margin-top: 7%; /* Elimina el margen por defecto */
+
+}
 
 .header { /*Hacer que el header permanesca en la parte superior*/
     position:fixed;
@@ -8,7 +15,6 @@
 }
 
 main {
-    margin-top : 7%;
     margin-left : 40px;
     margin-right : 40px;
 }
