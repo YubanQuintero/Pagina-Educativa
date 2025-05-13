@@ -1,0 +1,149 @@
+body {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  line-height: 1.6;
+  
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+p, ul, ol {
+  margin-bottom: 20px;
+}
+
+a {
+  color: #80cbc4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #424242;
+  margin: 30px 0;
+}
+
+blockquote {
+  border-left: 3px solid #424242;
+  margin: 20px 0;
+  padding-left: 20px;
+}
+
+
+pre {
+  background-color: #282828;
+  border-radius: 3px;
+  font-family: "Courier New", Courier, monospace;
+  overflow-x: auto;
+  padding: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #424242;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #282828;
+}
+
+/* Estilos de Notion para bloques */
+.notion-block , #course-card {
+  background-color: #282828;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.notion-block h2 {
+  margin-top: 0;
+}
+
+/* Estilos de botones de Notion */
+.notion-button {
+  background-color: #80cbc4;
+  border: none;
+  border-radius: 5px;
+  color: #1e1e1e;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 10px 20px;
+}
+
+.notion-button:hover {
+  background-color: #4db6ac;
+}
+
+
+/*####################################################*/
+
+
+form {
+  background-color: #262629;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #444;
+  background-color: #333;
+  color: #e8e8e8;
+  border-radius: 4px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+  outline: none;
+  border-color: #64b5f6;
+}
+
+button {
+  background-color: #64b5f6;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #42a5f5;
+}
+footer {
+  color: #a3a3a3;
+  font-size: 0.8em;
+  text-align: center;
+  margin-top: 2em;
+  padding-top: 1em;
+  border-top: 1px solid #333;
+}
