@@ -4,7 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EduLearn Cursos en Linea</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="CSS/General.css" />
+  <link rel="stylesheet" href="CSS/Flex_Header.css" />
+  <link rel="stylesheet" href="CSS/Theme_Notion.css" />
+
 </head>
 <body>
 
@@ -49,7 +52,7 @@
 
           <!-- Tarjeta de curso individual -->
 
-          <article class="course-card">
+          <article class="course-card" id = course-card>
             <img src="ruta/imagen-curso1.jpg" alt="Curso 1" class="course-card__image">
             <div class="course-card__info">
               <h3 class="course-card__title">Título del Curso 1</h3>
@@ -57,7 +60,7 @@
             </div>
           </article>
 
-          <article class="course-card2">
+          <article class="course-card2" id = course-card>
             <img src="ruta/imagen-curso2.jpg" alt="Curso 2" class="course-card__image2">
             <div class="course-card__info2">
               <h3 class="course-card__title2">Título del Curso 2</h3>
@@ -65,7 +68,7 @@
             </div>
           </article>
 
-          <article class="course-card3">
+          <article class="course-card3" id = course-card>
             <img src="ruta/imagen-curso3.jpg" alt="Curso 3" class="course-card__image3">
             <div class="course-card__info3">
               <h3 class="course-card__title3">Título del Curso 3</h3>
@@ -73,7 +76,7 @@
             </div>
           </article>
 
-          <article class="course-card4">
+          <article class="course-card4" id = course-card>
             <img src="ruta/imagen-curso4.jpg" alt="Curso 4" class="course-card__image4">
             <div class="course-card__info4">
               <h3 class="course-card__title4">Título del Curso 4</h3>
@@ -91,18 +94,26 @@
       <h2 class="section-title">Acerca de EduLearn</h2>
       <div class="about-content">
         <p>En <strong>EduLearn</strong> creemos en el poder transformador de la educación. Nuestra plataforma nace con la misión de ofrecer acceso universal a cursos en línea diseñados para impulsar el crecimiento personal y profesional de cada estudiante, sin importar su ubicación o nivel de experiencia.</p>
-        <p>Buscamos:</p>
-        <ul class="about-list">
-          <li><strong>Conectar</strong> a estudiantes con instructores expertos y comunidades de aprendizaje activas.</li>
-          <li><strong>Empoderar</strong> a los usuarios con herramientas interactivas, proyectos prácticos y evaluaciones constantes.</li>
-          <li><strong>Innovar</strong> en la forma de enseñar, combinando multimedia, foros y tutorías personalizadas.</li>
-        </ul>
-        <p>Ofrecemos:</p>
-        <ol class="about-features">
-          <li>Catálogo de cursos actualizados en áreas como tecnología, diseño, marketing y desarrollo personal.</li>
-          <li>Certificaciones digitales que avalan tu progreso y competencias.</li>
-          <li>Material complementario descargable y acceso de por vida a los contenidos.</li>
-        </ol>
+        <div id = columnas1>
+          <div class = notion-block>
+            <h3>Buscamos:</h3>
+            <ul class="about-list">
+              <li><strong>Conectar</strong> a estudiantes con instructores expertos y comunidades de aprendizaje activas.</li>
+              <li><strong>Empoderar</strong> a los usuarios con herramientas interactivas, proyectos prácticos y evaluaciones constantes.</li>
+              <li><strong>Innovar</strong> en la forma de enseñar, combinando multimedia, foros y tutorías personalizadas.</li>
+            </ul>
+          </div>
+          <div class = notion-block>
+            <h3>Ofrecemos:</h3>
+            <ol class="about-features">
+              <li>Catálogo de cursos actualizados en áreas como tecnología, diseño, marketing y desarrollo personal.</li>
+              <li>Certificaciones digitales que avalan tu progreso y competencias.</li>
+              <li>Material complementario descargable y acceso de por vida a los contenidos.</li>
+            </ol>
+          </div>
+
+        </div>
+        
         <p>En EduLearn, tu aprendizaje es nuestra prioridad. Únete a miles de estudiantes que ya están construyendo su futuro con nosotros.</p>
       </div>
     </section>
