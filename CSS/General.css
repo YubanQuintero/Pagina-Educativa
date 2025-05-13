@@ -1,8 +1,17 @@
-body {
-    margin-left: 60px; /* Ajusta este valor según el espacio deseado alrededor de todo el contenido */
-    margin-right : 60px;
+
+
+.header { /*Hacer que el header permanesca en la parte superior*/
+    position:fixed;
+    top: 0;          /* Lo coloca en la parte superior */
+    left: 0;         /* Lo alinea al borde izquierdo */
+    width: 100%; 
 }
 
+main {
+    margin-top : 7%;
+    margin-left : 40px;
+    margin-right : 40px;
+}
 
 #columnas1{
     column-count:2;

@@ -1,5 +1,5 @@
 .header {
-    background-color: #1e1e1e;
+    background-color: #0c0c0c;
     color: #d4d4d4;
 
   }
@@ -94,7 +94,7 @@
     justify-content: flex-start; /* Alinea todo a la izquierda inicialmente */
     align-items: center;
 
-    margin: 0;
+    margin : 10px 40px;
   }
   
   .nav-menu {
