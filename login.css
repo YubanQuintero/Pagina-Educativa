@@ -20,7 +20,7 @@ body {
     padding: 20px;
     width: 100%;
     max-width: 400px;
-    
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.3);
  } 
  .login-form h2{
     text-align: center;
@@ -64,6 +64,7 @@ button[type="submit"]{
     font-weight: 600;
     padding: 10px 20px;
     transition: all 0.3s ease;
+    margin-top: 1rem;
 }
 button:hover{
     background-color: #5c92cc;
